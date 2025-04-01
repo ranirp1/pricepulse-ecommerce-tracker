@@ -1,4 +1,4 @@
-# PricePulse: E-Commerce Price Tracking Application 
+# PricePulse: E-Commerce Tracking Application 
 
 PricePulse is a web application that tracks product prices from e-commerce websites (like Amazon) and notifies users when prices drop or items come back in stock. Built with Next.js, it demonstrates modern web scraping techniques and automated notification systems.
 
