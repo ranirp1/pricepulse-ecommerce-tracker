@@ -50,23 +50,29 @@ PricePulse is a web application that tracks product prices from e-commerce websi
     ```
 
 3. Set up environment variables:
-    - Create a `.env` file in the root directory
-    - Copy the structure from `.env.example` and fill in your credentials
+   - Create a `.env` file in the root directory
+   - Add the following variables to the file:
+     ```
+     BRIGHT_DATA_USERNAME=your_username
+     BRIGHT_DATA_PASSWORD=your_password
+     MONGODB_URI=your_mongodb_connection_string
+     EMAIL_USER=your_email_address
+     EMAIL_PASS=your_email_password
+     ```
 
 4. Run the development server:
     ```bash
     npm run dev
     ```
 
-## ⚙️ Configuration
-### Environment Variables
+## ⚙️ Configuration (Environment Variables) 
 | Variable | Description | Example |
 |----------|-------------|---------|
 | BRIGHT_DATA_USERNAME | Bright Data account username | user123 |
 | BRIGHT_DATA_PASSWORD | Bright Data account password | pass123 |
 | MONGODB_URI | MongoDB connection string | mongodb+srv://... |
-| EMAIL_USER | Email service username | your@email.com |
-| EMAIL_PASS | Email service password | yourpassword |
+| EMAIL_USER | Email service username (Gmail recommended) | your@email.com |
+| EMAIL_PASS | Email service password or app password | yourpassword |
 
 ## 🔍 How It Works
 1. User adds a product URL (e.g., Amazon product page)
